@@ -13,19 +13,19 @@ importers:
         version: 2.26.2
       '@graphql-ez/client':
         specifier: ^0.6.1
-        version: 0.6.1(@types/node@20.4.2)(graphql@16.8.1)
+        version: 0.6.1(@types/node@20.4.2)(graphql@16.11.0)
       '@graphql-ez/fastify':
         specifier: ^0.12.0
-        version: 0.12.0(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.8.1))(graphql@16.8.1)
+        version: 0.12.0(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.11.0))(graphql@16.11.0)
       '@graphql-ez/fastify-testing':
         specifier: ^0.4.0
-        version: 0.4.0(@graphql-ez/fastify@0.12.0(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.8.1))(graphql@16.8.1))(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.8.1))(graphql@16.8.1)
+        version: 0.4.0(@graphql-ez/fastify@0.12.0(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.11.0))(graphql@16.11.0))(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.11.0))(graphql@16.11.0)
       '@graphql-ez/plugin-websockets':
         specifier: ^0.11.2
-        version: 0.11.2(@types/node@20.4.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.8.1))(graphql@16.8.1)
+        version: 0.11.2(@types/node@20.4.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.11.0))(graphql@16.11.0)
       '@pothos/core':
         specifier: ^3.30.0
-        version: 3.30.0(graphql@16.8.1)
+        version: 3.41.2(graphql@16.11.0)
       '@types/node':
         specifier: ^20.4.2
         version: 20.4.2
@@ -58,13 +58,13 @@ importers:
         version: 4.19.2
       graphql:
         specifier: ^16.7.1
-        version: 16.8.1
+        version: 16.11.0
       graphql-ez:
         specifier: ^0.16.0
-        version: 0.16.0(@types/node@20.4.2)(graphql@16.8.1)
+        version: 0.16.0(@types/node@20.4.2)(graphql@16.11.0)
       graphql-ws:
         specifier: ^5.14.0
-        version: 5.14.0(graphql@16.8.1)
+        version: 5.14.0(graphql@16.11.0)
       ioredis:
         specifier: ^5.3.2
         version: 5.3.2
@@ -432,8 +432,8 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@pothos/core@3.30.0':
-    resolution: {integrity: sha512-ZUL2YTv3ODeKBkhkVcEO03lcERdqQaG2zfylNpkrY9ryAIhOuN9Pbo+VnfqhqEQx7jM/56Rro7i9AuhzF0Q3tA==}
+  '@pothos/core@3.41.2':
+    resolution: {integrity: sha512-iR1gqd93IyD/snTW47HwKSsRCrvnJaYwjVNcUG8BztZPqMxyJKPAnjPHAgu1XB82KEdysrNqIUnXqnzZIs08QA==}
     peerDependencies:
       graphql: '>=15.1.0'
 
@@ -650,10 +650,6 @@ packages:
 
   buffer@6.0.3:
     resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==}
-
-  busboy@1.6.0:
-    resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
-    engines: {node: '>=10.16.0'}
 
   c8@10.1.3:
     resolution: {integrity: sha512-LvcyrOAaOnrrlMpW22n690PUvxiq4Uf9WMhQwNJ9vgagkL/ph1+D4uvjvDA5XCbykrc0sx+ay6pVi9YZ1GnhyA==}
@@ -1096,8 +1092,8 @@ packages:
     peerDependencies:
       graphql: '>=0.11 <=16'
 
-  graphql@16.8.1:
-    resolution: {integrity: sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==}
+  graphql@16.11.0:
+    resolution: {integrity: sha512-mS1lbMsxgQj6hge1XZ6p7GPhbrtFwUFYi3wRzXAC/FmYnyXMTvvI3td3rjmQ2u8ewXueaSvRPWaEcgVVOT9Jnw==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
 
   hard-rejection@2.1.0:
@@ -1744,14 +1740,8 @@ packages:
   rfdc@1.3.0:
     resolution: {integrity: sha512-V2hovdzFbOi77/WajaSMXk2OLm+xNIeQdMMuB7icj7bk6zi2F8GGAxigcnDFpJHbNyNcgyJDiP+8nOrY5cZGrA==}
 
-  rimraf@3.0.2:
-    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
-    deprecated: Rimraf versions prior to v4 are no longer supported
-    hasBin: true
-
   rollup@2.79.2:
     resolution: {integrity: sha512-fS6iqSPZDs3dr/y7Od6y5nha8dW1YnbgtsyotCVvoFGKbERG++CVRFv1meyGDE1SNItQA8BrnCw7ScdAhRJ3XQ==}
-
     engines: {node: '>=10.0.0'}
     hasBin: true
 
@@ -2432,54 +2422,54 @@ snapshots:
     dependencies:
       fast-json-stringify: 5.7.0
 
-  '@graphql-ez/client@0.6.1(@types/node@20.4.2)(graphql@16.8.1)':
+  '@graphql-ez/client@0.6.1(@types/node@20.4.2)(graphql@16.11.0)':
     dependencies:
-      '@graphql-ez/utils': 0.2.0(@types/node@20.4.2)(graphql@16.8.1)
+      '@graphql-ez/utils': 0.2.0(@types/node@20.4.2)(graphql@16.11.0)
       '@types/node': 20.4.2
-      graphql: 16.8.1
+      graphql: 16.11.0
       undici: 5.29.0
 
-  '@graphql-ez/fastify-testing@0.4.0(@graphql-ez/fastify@0.12.0(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.8.1))(graphql@16.8.1))(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.8.1))(graphql@16.8.1)':
+  '@graphql-ez/fastify-testing@0.4.0(@graphql-ez/fastify@0.12.0(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.11.0))(graphql@16.11.0))(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.11.0))(graphql@16.11.0)':
     dependencies:
-      '@graphql-ez/client': 0.6.1(@types/node@20.4.2)(graphql@16.8.1)
-      '@graphql-ez/fastify': 0.12.0(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.8.1))(graphql@16.8.1)
-      '@graphql-ez/utils': 0.2.0(@types/node@20.4.2)(graphql@16.8.1)
+      '@graphql-ez/client': 0.6.1(@types/node@20.4.2)(graphql@16.11.0)
+      '@graphql-ez/fastify': 0.12.0(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.11.0))(graphql@16.11.0)
+      '@graphql-ez/utils': 0.2.0(@types/node@20.4.2)(graphql@16.11.0)
       fastify: 4.19.2
-      graphql: 16.8.1
-      graphql-ez: 0.16.0(@types/node@20.4.2)(graphql@16.8.1)
+      graphql: 16.11.0
+      graphql-ez: 0.16.0(@types/node@20.4.2)(graphql@16.11.0)
     transitivePeerDependencies:
       - '@graphql-typed-document-node/core'
       - '@types/node'
 
-  '@graphql-ez/fastify@0.12.0(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.8.1))(graphql@16.8.1)':
+  '@graphql-ez/fastify@0.12.0(@types/node@20.4.2)(fastify@4.19.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.11.0))(graphql@16.11.0)':
     dependencies:
       '@fastify/cors': 8.3.0
-      '@graphql-ez/utils': 0.2.0(@types/node@20.4.2)(graphql@16.8.1)
+      '@graphql-ez/utils': 0.2.0(@types/node@20.4.2)(graphql@16.11.0)
       '@types/node': 20.4.2
-      graphql-ez: 0.16.0(@types/node@20.4.2)(graphql@16.8.1)
+      graphql-ez: 0.16.0(@types/node@20.4.2)(graphql@16.11.0)
     optionalDependencies:
       fastify: 4.19.2
-      graphql: 16.8.1
+      graphql: 16.11.0
 
-  '@graphql-ez/plugin-websockets@0.11.2(@types/node@20.4.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.8.1))(graphql@16.8.1)':
+  '@graphql-ez/plugin-websockets@0.11.2(@types/node@20.4.2)(graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.11.0))(graphql@16.11.0)':
     dependencies:
-      '@graphql-ez/utils': 0.2.0(@types/node@20.4.2)(graphql@16.8.1)
+      '@graphql-ez/utils': 0.2.0(@types/node@20.4.2)(graphql@16.11.0)
       '@types/ws': 8.5.5
-      graphql-ez: 0.16.0(@types/node@20.4.2)(graphql@16.8.1)
-      graphql-ws: 5.14.0(graphql@16.8.1)
-      subscriptions-transport-ws-envelop: 2.0.2(graphql@16.8.1)(ws@8.18.2)
+      graphql-ez: 0.16.0(@types/node@20.4.2)(graphql@16.11.0)
+      graphql-ws: 5.14.0(graphql@16.11.0)
+      subscriptions-transport-ws-envelop: 2.0.2(graphql@16.11.0)(ws@8.18.2)
       ws: 8.18.2
     optionalDependencies:
-      graphql: 16.8.1
+      graphql: 16.11.0
     transitivePeerDependencies:
       - '@types/node'
       - bufferutil
       - utf-8-validate
 
-  '@graphql-ez/utils@0.2.0(@types/node@20.4.2)(graphql@16.8.1)':
+  '@graphql-ez/utils@0.2.0(@types/node@20.4.2)(graphql@16.11.0)':
     dependencies:
       '@types/node': 20.4.2
-      graphql: 16.8.1
+      graphql: 16.11.0
 
   '@ioredis/commands@1.2.0': {}
 
@@ -2531,17 +2521,16 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  '@pablosz/graphql-helix@2.0.3(graphql@16.8.1)':
+  '@pablosz/graphql-helix@2.0.3(graphql@16.11.0)':
     dependencies:
-      graphql: 16.8.1
+      graphql: 16.11.0
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@pothos/core@3.30.0(graphql@16.7.1)':
-
+  '@pothos/core@3.41.2(graphql@16.11.0)':
     dependencies:
-      graphql: 16.8.1
+      graphql: 16.11.0
 
   '@rollup/pluginutils@4.2.1':
     dependencies:
@@ -2760,10 +2749,6 @@ snapshots:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
-
-  busboy@1.6.0:
-    dependencies:
-      streamsearch: 1.1.0
 
   c8@10.1.3:
     dependencies:
@@ -3290,23 +3275,23 @@ snapshots:
 
   grapheme-splitter@1.0.4: {}
 
-  graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.8.1):
+  graphql-ez@0.16.0(@types/node@20.4.2)(graphql@16.11.0):
     dependencies:
       '@envelop/core': 3.0.6
       '@envelop/types': 3.0.2
-      '@graphql-ez/utils': 0.2.0(@types/node@20.4.2)(graphql@16.8.1)
-      '@pablosz/graphql-helix': 2.0.3(graphql@16.8.1)
+      '@graphql-ez/utils': 0.2.0(@types/node@20.4.2)(graphql@16.11.0)
+      '@pablosz/graphql-helix': 2.0.3(graphql@16.11.0)
       tiny-lru: 10.0.1
     optionalDependencies:
-      graphql: 16.8.1
+      graphql: 16.11.0
     transitivePeerDependencies:
       - '@types/node'
 
-  graphql-ws@5.14.0(graphql@16.8.1):
+  graphql-ws@5.14.0(graphql@16.11.0):
     dependencies:
-      graphql: 16.8.1
+      graphql: 16.11.0
 
-  graphql@16.8.1: {}
+  graphql@16.11.0: {}
 
   hard-rejection@2.1.0: {}
 
@@ -3893,12 +3878,7 @@ snapshots:
 
   rfdc@1.3.0: {}
 
-  rimraf@3.0.2:
-    dependencies:
-      glob: 7.2.3
-
   rollup@2.79.2:
-
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -4075,11 +4055,11 @@ snapshots:
     dependencies:
       min-indent: 1.0.1
 
-  subscriptions-transport-ws-envelop@2.0.2(graphql@16.8.1)(ws@8.18.2):
+  subscriptions-transport-ws-envelop@2.0.2(graphql@16.11.0)(ws@8.18.2):
     dependencies:
       backo2: 1.0.2
       eventemitter3: 4.0.7
-      graphql: 16.8.1
+      graphql: 16.11.0
       isomorphic-ws: 4.0.1(ws@8.18.2)
       iterall: 1.3.0
       symbol-observable: 4.0.0
