@@ -1,5 +1,11 @@
 # @soundxyz/redis-pubsub
 
+## 4.1.5
+
+### Patch Changes
+
+- Updated all dependencies
+
 ## 4.1.2
 
 ### Patch Changes

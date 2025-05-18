@@ -2,6 +2,8 @@
 
 Full type-safe Redis PubSub system with async iterators
 
+This is a fork of https://github.com/soundxyz/redis-pubsub with updated dependencies
+
 ## Features
 
 - [x] Type-safety with [Zod](https://github.com/colinhacks/zod)
@@ -16,16 +18,9 @@ Full type-safe Redis PubSub system with async iterators
 ## Install
 
 ```sh
-pnpm add @soundxyz/redis-pubsub
+npm install @13bytes/redis-pubsub
 ```
 
-```sh
-npm install @soundxyz/redis-pubsub
-```
-
-```sh
-yarn add @soundxyz/redis-pubsub
-```
 
 > Peer dependencies
 
